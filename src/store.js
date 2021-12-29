@@ -8,6 +8,14 @@ const persistConfig = {
     key: 'root',
     storage
 };
+/*
+Se quiser armazenar somente um dado, fazer teste jeito, agora se quiser salvar tudo no persist, é igual o exemplo acima
+const persistConfig = {
+key: 'root',
+storage: storage,
+whitelist: ['usuario']
+} 
+*/
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
