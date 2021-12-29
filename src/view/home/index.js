@@ -10,12 +10,12 @@ const Home = () => {
     <div className="Geral">
 
     <hr/>
-    <h2 style={{color: "red"}}>Excluir Agendamento</h2>
+    <h1 style={{color: "black"}}>Modal 1</h1>
     <ExcluirAgendamento/>
     <hr/>
     
     <hr/>
-    <h2 style={{color: "red"}}>Excluir Acionamento</h2>
+    <h1 style={{color: "black"}}>Modal 2</h1>
     <ExcluirAcionamento/>
     <hr/>
 

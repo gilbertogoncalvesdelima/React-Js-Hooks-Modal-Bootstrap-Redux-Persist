@@ -48,7 +48,7 @@ useEffect(() => {
     <div>
     
       <Button variant="primary" onClick={handleShow}>
-        Botão abrir modal
+        Botão abrir modal 2
       </Button>
 
       <Modal
@@ -58,7 +58,7 @@ useEffect(() => {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title><strong>Deseja remover o agendamento?</strong> </Modal.Title>
+          <Modal.Title><strong>Deseja remover o modal 2?</strong> </Modal.Title>
         </Modal.Header>
         <Modal.Body>
          <p>MOTIVO</p>
@@ -82,10 +82,10 @@ useEffect(() => {
           <Button style={{width:'30%', backgroundColor: "white", color: "cyan", borderWidth: "1px", borderColor: "cyan"}} variant="secondary" onClick={handleClose}>
             Cancelar
           </Button>
-          <Button style={{width:'30%', backgroundColor: "red", color: "white", borderWidth: "1px", borderColor: "red"}} onClick={handleClick} variant="primary">Remover</Button>
+          <Button style={{width:'30%', backgroundColor: "blue", color: "white", borderWidth: "1px", borderColor: "red"}} onClick={handleClick} variant="primary">Remover</Button>
         </Modal.Footer>
       </Modal>
-  <h1 style={{color: "red"}}>ID: {name}</h1>  
+  <p style={{color: "black"}}>ID: {name}</p>  
     </div>
   );
 }
